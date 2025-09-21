@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Events - Ann's Restaurant</title>
+  <meta name="description" content="Host your special events at Ann's Restaurant. Custom parties, private events, birthday parties, and wedding celebrations in Nairobi.">
+  <meta name="keywords" content="events, parties, weddings, birthdays, private dining, Nairobi, Ann's Restaurant">
+
+  <!-- Favicons -->
+  <link href="../assets/img/favicon.png" rel="icon">
+  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="../assets/css/main.css" rel="stylesheet">
+  
+  <!-- Interactive CSS File -->
+  <link href="../assets/css/interactive.css" rel="stylesheet">
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+
+      <a href="../index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <h1 class="sitename">Ann's Restaurant</h1>
+        <span>.</span>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="events.html" class="active">Events</a></li>
+          <li><a href="chefs.html">Chefs</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="contact.html#book-a-table">Book a Table</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Events Section -->
+    <section id="events" class="events section">
+
+      <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 40
+                },
+                "1200": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 1
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(../assets/img/events-1.jpg)">
+              <h3>Custom Parties</h3>
+              <div class="price align-self-start">KSh 9,900</div>
+              <p class="description">
+                Create unforgettable memories with our custom party packages. We'll work with you to design the perfect celebration tailored to your specific needs and preferences.
+              </p>
+            </div><!-- End Event item -->
+
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(../assets/img/events-2.jpg)">
+              <h3>Private Parties</h3>
+              <div class="price align-self-start">KSh 28,900</div>
+              <p class="description">
+                Host an exclusive private event in our elegant dining space. Perfect for corporate gatherings, family reunions, or intimate celebrations with your closest friends.
+              </p>
+            </div><!-- End Event item -->
+
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(../assets/img/events-3.jpg)">
+              <h3>Birthday Parties</h3>
+              <div class="price align-self-start">KSh 49,900</div>
+              <p class="description">
+                Celebrate another year of life in style! Our birthday party packages include custom decorations, special menu options, and a dedicated event coordinator to ensure everything is perfect.
+              </p>
+            </div><!-- End Event item -->
+
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(../assets/img/events-4.jpg)">
+              <h3>Wedding Parties</h3>
+              <div class="price align-self-start">KSh 89,900</div>
+              <p class="description">
+                Make your special day truly magical with our wedding celebration packages. From intimate ceremonies to grand receptions, we'll create the perfect atmosphere for your once-in-a-lifetime event.
+              </p>
+            </div><!-- End Event item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Events Section -->
+
+    <!-- Event Planning Section -->
+    <section id="event-planning" class="event-planning section light-background">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6" data-aos="fade-up">
+            <h2>Event Planning Services</h2>
+            <p>Let our experienced event planning team help you create the perfect celebration. We offer comprehensive event planning services to ensure your special occasion is memorable and stress-free.</p>
+            
+            <div class="row gy-3">
+              <div class="col-md-6">
+                <div class="event-feature">
+                  <i class="bi bi-check-circle-fill"></i>
+                  <span>Custom Menu Design</span>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="event-feature">
+                  <i class="bi bi-check-circle-fill"></i>
+                  <span>Professional Decorations</span>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="event-feature">
+                  <i class="bi bi-check-circle-fill"></i>
+                  <span>Audio/Visual Setup</span>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="event-feature">
+                  <i class="bi bi-check-circle-fill"></i>
+                  <span>Dedicated Event Coordinator</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="event-contact">
+              <h3>Plan Your Event</h3>
+              <p>Ready to start planning your special event? Contact our events team today!</p>
+              <div class="contact-info">
+                <p><strong>Phone:</strong> +254 729 591 963</p>
+                <p><strong>Email:</strong> events@annsrestaurant.com</p>
+                <p><strong>Address:</strong> Moi Avenue, Muindi Mbingu Street, Martial Building, Nairobi</p>
+              </div>
+              <a href="contact.html" class="btn btn-primary">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+
+    <div class="container">
+      <div class="row gy-3">
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-geo-alt icon"></i>
+          <div class="address">
+            <h4>Address</h4>
+            <p>Moi Avenue, Muindi Mbingu Street</p>
+            <p>Martial Building, Nairobi, Kenya</p>
+            <p></p>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-telephone icon"></i>
+          <div>
+            <h4>Contact</h4>
+            <p>
+              <strong>Phone:</strong> <span>+254 729 591 963</span><br>
+              <strong>Email:</strong> <span>info@annsrestaurant.com</span><br>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-clock icon"></i>
+          <div>
+            <h4>Opening Hours</h4>
+            <p>
+              <strong>Mon-Thu:</strong> <span>11AM - 10PM</span><br>
+              <strong>Fri-Sat:</strong> <span>11AM - 11PM</span><br>
+              <strong>Sunday:</strong> <span>10AM - 9PM</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <h4>Follow Us</h4>
+          <div class="social-links d-flex">
+            <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Ann's Restaurant</strong> <span>All Rights Reserved</span></p>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/php-email-form/validate.js"></script>
+  <script src="../assets/vendor/aos/aos.js"></script>
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="../assets/js/main.js"></script>
+  
+  <!-- Restaurant Interactive Features -->
+  <script src="../assets/js/restaurant-interactive.js"></script>
+
+</body>
+
+</html>
